@@ -16,6 +16,12 @@
 		90EDEEB71CBF549B002EA1E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EDEEB51CBF549B002EA1E3 /* LaunchScreen.storyboard */; };
 		90EDEEC21CBF549B002EA1E3 /* SMAtributestringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EDEEC11CBF549B002EA1E3 /* SMAtributestringTests.m */; };
 		90EDEECD1CBF549B002EA1E3 /* SMAtributestringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EDEECC1CBF549B002EA1E3 /* SMAtributestringUITests.m */; };
+		90EDEEE11CBF6170002EA1E3 /* Roboto-Bold_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90EDEEDB1CBF6170002EA1E3 /* Roboto-Bold_0.ttf */; settings = {ASSET_TAGS = (); }; };
+		90EDEEE21CBF6170002EA1E3 /* Roboto-Regular_0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90EDEEDC1CBF6170002EA1E3 /* Roboto-Regular_0.ttf */; settings = {ASSET_TAGS = (); }; };
+		90EDEEE31CBF6170002EA1E3 /* Titillium-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90EDEEDD1CBF6170002EA1E3 /* Titillium-Light.otf */; settings = {ASSET_TAGS = (); }; };
+		90EDEEE41CBF6170002EA1E3 /* Titillium-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90EDEEDE1CBF6170002EA1E3 /* Titillium-Regular.otf */; settings = {ASSET_TAGS = (); }; };
+		90EDEEE51CBF6170002EA1E3 /* Titillium-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90EDEEDF1CBF6170002EA1E3 /* Titillium-RegularItalic.otf */; settings = {ASSET_TAGS = (); }; };
+		90EDEEE61CBF6170002EA1E3 /* Titillium-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 90EDEEE01CBF6170002EA1E3 /* Titillium-Semibold.otf */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		90EDEEC81CBF549B002EA1E3 /* SMAtributestringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMAtributestringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EDEECC1CBF549B002EA1E3 /* SMAtributestringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAtributestringUITests.m; sourceTree = "<group>"; };
 		90EDEECE1CBF549B002EA1E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EDEEDB1CBF6170002EA1E3 /* Roboto-Bold_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold_0.ttf"; sourceTree = "<group>"; };
+		90EDEEDC1CBF6170002EA1E3 /* Roboto-Regular_0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular_0.ttf"; sourceTree = "<group>"; };
+		90EDEEDD1CBF6170002EA1E3 /* Titillium-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-Light.otf"; sourceTree = "<group>"; };
+		90EDEEDE1CBF6170002EA1E3 /* Titillium-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-Regular.otf"; sourceTree = "<group>"; };
+		90EDEEDF1CBF6170002EA1E3 /* Titillium-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-RegularItalic.otf"; sourceTree = "<group>"; };
+		90EDEEE01CBF6170002EA1E3 /* Titillium-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Titillium-Semibold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,7 @@
 		90EDEEA31CBF549B002EA1E3 /* SMAtributestring */ = {
 			isa = PBXGroup;
 			children = (
+				90EDEEDA1CBF6170002EA1E3 /* CustomFont */,
 				90EDEEA71CBF549B002EA1E3 /* AppDelegate.h */,
 				90EDEEA81CBF549B002EA1E3 /* AppDelegate.m */,
 				90EDEEAA1CBF549B002EA1E3 /* ViewController.h */,
@@ -141,6 +154,19 @@
 				90EDEECE1CBF549B002EA1E3 /* Info.plist */,
 			);
 			path = SMAtributestringUITests;
+			sourceTree = "<group>";
+		};
+		90EDEEDA1CBF6170002EA1E3 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				90EDEEDB1CBF6170002EA1E3 /* Roboto-Bold_0.ttf */,
+				90EDEEDC1CBF6170002EA1E3 /* Roboto-Regular_0.ttf */,
+				90EDEEDD1CBF6170002EA1E3 /* Titillium-Light.otf */,
+				90EDEEDE1CBF6170002EA1E3 /* Titillium-Regular.otf */,
+				90EDEEDF1CBF6170002EA1E3 /* Titillium-RegularItalic.otf */,
+				90EDEEE01CBF6170002EA1E3 /* Titillium-Semibold.otf */,
+			);
+			path = CustomFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +272,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90EDEEE61CBF6170002EA1E3 /* Titillium-Semibold.otf in Resources */,
+				90EDEEE31CBF6170002EA1E3 /* Titillium-Light.otf in Resources */,
 				90EDEEB71CBF549B002EA1E3 /* LaunchScreen.storyboard in Resources */,
 				90EDEEB41CBF549B002EA1E3 /* Assets.xcassets in Resources */,
+				90EDEEE21CBF6170002EA1E3 /* Roboto-Regular_0.ttf in Resources */,
+				90EDEEE51CBF6170002EA1E3 /* Titillium-RegularItalic.otf in Resources */,
 				90EDEEAF1CBF549B002EA1E3 /* Main.storyboard in Resources */,
+				90EDEEE11CBF6170002EA1E3 /* Roboto-Bold_0.ttf in Resources */,
+				90EDEEE41CBF6170002EA1E3 /* Titillium-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
